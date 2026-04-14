@@ -3,7 +3,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Container } from '../../components/layout/Container/Container';
 import { Card } from '../../components/atoms/Card';
 import { Button } from '../../components/atoms/Button';
-import { CheckoutForm } from '../../components/domain/CheckoutForm/CheckoutForm';
+import { CheckoutForm } from '../../components/organisms/CheckoutForm';
 import { useCartStore } from '../../store/useCartStore';
 import { usePageTitle } from '../../hooks/usePageTitle';
 import { formatPrice, formatValidity } from '../../utils/format';
