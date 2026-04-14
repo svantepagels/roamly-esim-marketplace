@@ -8,43 +8,43 @@ export interface Operator {
 
 export const OPERATORS: Operator[] = [
   // North America
-  { id: 'att', name: 'AT&T', regions: ['North America'], countries: ['USA', 'Mexico', 'Canada'], logoPath: '/src/components/domain/OperatorCarousel/logos/att.svg' },
-  { id: 'tmobile', name: 'T-Mobile', regions: ['North America'], countries: ['USA', 'Puerto Rico'], logoPath: '/src/components/domain/OperatorCarousel/logos/tmobile.svg' },
-  { id: 'verizon', name: 'Verizon', regions: ['North America'], countries: ['USA'], logoPath: '/src/components/domain/OperatorCarousel/logos/verizon.svg' },
-  { id: 'telus', name: 'Telus', regions: ['North America'], countries: ['Canada'], logoPath: '/src/components/domain/OperatorCarousel/logos/telus.svg' },
-  { id: 'rogers', name: 'Rogers', regions: ['North America'], countries: ['Canada'], logoPath: '/src/components/domain/OperatorCarousel/logos/rogers.svg' },
-  { id: 'bell', name: 'Bell', regions: ['North America'], countries: ['Canada'], logoPath: '/src/components/domain/OperatorCarousel/logos/bell.svg' },
+  { id: 'att', name: 'AT&T', regions: ['North America'], countries: ['USA', 'Mexico', 'Canada'], logoPath: '/logos/att.svg' },
+  { id: 'tmobile', name: 'T-Mobile', regions: ['North America'], countries: ['USA', 'Puerto Rico'], logoPath: '/logos/tmobile.svg' },
+  { id: 'verizon', name: 'Verizon', regions: ['North America'], countries: ['USA'], logoPath: '/logos/verizon.svg' },
+  { id: 'telus', name: 'Telus', regions: ['North America'], countries: ['Canada'], logoPath: '/logos/telus.svg' },
+  { id: 'rogers', name: 'Rogers', regions: ['North America'], countries: ['Canada'], logoPath: '/logos/rogers.svg' },
+  { id: 'bell', name: 'Bell', regions: ['North America'], countries: ['Canada'], logoPath: '/logos/bell.svg' },
 
   // Europe
-  { id: 'vodafone', name: 'Vodafone', regions: ['Europe', 'Africa', 'Asia'], countries: ['UK', 'Germany', 'Italy', 'Spain', 'Greece'], logoPath: '/src/components/domain/OperatorCarousel/logos/vodafone.svg' },
-  { id: 'orange', name: 'Orange', regions: ['Europe', 'Africa', 'Middle East'], countries: ['France', 'Spain', 'Poland', 'Belgium'], logoPath: '/src/components/domain/OperatorCarousel/logos/orange.svg' },
-  { id: 'o2', name: 'O2', regions: ['Europe'], countries: ['UK', 'Germany', 'Czech Republic'], logoPath: '/src/components/domain/OperatorCarousel/logos/o2.svg' },
-  { id: 'three', name: 'Three', regions: ['Europe', 'Asia'], countries: ['UK', 'Ireland', 'Italy', 'Austria', 'Sweden', 'Denmark', 'Hong Kong'], logoPath: '/src/components/domain/OperatorCarousel/logos/three.svg' },
-  { id: 'deutsche-telekom', name: 'Deutsche Telekom', regions: ['Europe'], countries: ['Germany', 'Austria', 'Poland'], logoPath: '/src/components/domain/OperatorCarousel/logos/deutsche-telekom.svg' },
-  { id: 'telefonica', name: 'Telefónica', regions: ['Europe', 'Latin America'], countries: ['Spain', 'UK', 'Germany', 'Brazil', 'Argentina'], logoPath: '/src/components/domain/OperatorCarousel/logos/telefonica.svg' },
-  { id: 'swisscom', name: 'Swisscom', regions: ['Europe'], countries: ['Switzerland', 'Liechtenstein'], logoPath: '/src/components/domain/OperatorCarousel/logos/swisscom.svg' },
-  { id: 'ee', name: 'EE', regions: ['Europe'], countries: ['UK'], logoPath: '/src/components/domain/OperatorCarousel/logos/ee.svg' },
-  { id: 'bouygues', name: 'Bouygues Telecom', regions: ['Europe'], countries: ['France'], logoPath: '/src/components/domain/OperatorCarousel/logos/bouygues.svg' },
+  { id: 'vodafone', name: 'Vodafone', regions: ['Europe', 'Africa', 'Asia'], countries: ['UK', 'Germany', 'Italy', 'Spain', 'Greece'], logoPath: '/logos/vodafone.svg' },
+  { id: 'orange', name: 'Orange', regions: ['Europe', 'Africa', 'Middle East'], countries: ['France', 'Spain', 'Poland', 'Belgium'], logoPath: '/logos/orange.svg' },
+  { id: 'o2', name: 'O2', regions: ['Europe'], countries: ['UK', 'Germany', 'Czech Republic'], logoPath: '/logos/o2.svg' },
+  { id: 'three', name: 'Three', regions: ['Europe', 'Asia'], countries: ['UK', 'Ireland', 'Italy', 'Austria', 'Sweden', 'Denmark', 'Hong Kong'], logoPath: '/logos/three.svg' },
+  { id: 'deutsche-telekom', name: 'Deutsche Telekom', regions: ['Europe'], countries: ['Germany', 'Austria', 'Poland'], logoPath: '/logos/deutsche-telekom.svg' },
+  { id: 'telefonica', name: 'Telefónica', regions: ['Europe', 'Latin America'], countries: ['Spain', 'UK', 'Germany', 'Brazil', 'Argentina'], logoPath: '/logos/telefonica.svg' },
+  { id: 'swisscom', name: 'Swisscom', regions: ['Europe'], countries: ['Switzerland', 'Liechtenstein'], logoPath: '/logos/swisscom.svg' },
+  { id: 'ee', name: 'EE', regions: ['Europe'], countries: ['UK'], logoPath: '/logos/ee.svg' },
+  { id: 'bouygues', name: 'Bouygues Telecom', regions: ['Europe'], countries: ['France'], logoPath: '/logos/bouygues.svg' },
 
   // Asia
-  { id: 'chinamobile', name: 'China Mobile', regions: ['Asia'], countries: ['China', 'Hong Kong', 'Pakistan'], logoPath: '/src/components/domain/OperatorCarousel/logos/chinamobile.svg' },
-  { id: 'chinaunicom', name: 'China Unicom', regions: ['Asia'], countries: ['China', 'Hong Kong', 'Macau'], logoPath: '/src/components/domain/OperatorCarousel/logos/chinaunicom.svg' },
-  { id: 'singtel', name: 'Singtel', regions: ['Asia', 'Oceania'], countries: ['Singapore', 'Australia', 'Thailand'], logoPath: '/src/components/domain/OperatorCarousel/logos/singtel.svg' },
-  { id: 'softbank', name: 'SoftBank', regions: ['Asia'], countries: ['Japan'], logoPath: '/src/components/domain/OperatorCarousel/logos/softbank.svg' },
-  { id: 'kddi', name: 'KDDI', regions: ['Asia'], countries: ['Japan'], logoPath: '/src/components/domain/OperatorCarousel/logos/kddi.svg' },
-  { id: 'sk-telecom', name: 'SK Telecom', regions: ['Asia'], countries: ['South Korea'], logoPath: '/src/components/domain/OperatorCarousel/logos/sk-telecom.svg' },
-  { id: 'kt-corp', name: 'KT Corporation', regions: ['Asia'], countries: ['South Korea'], logoPath: '/src/components/domain/OperatorCarousel/logos/kt-corp.svg' },
+  { id: 'chinamobile', name: 'China Mobile', regions: ['Asia'], countries: ['China', 'Hong Kong', 'Pakistan'], logoPath: '/logos/chinamobile.svg' },
+  { id: 'chinaunicom', name: 'China Unicom', regions: ['Asia'], countries: ['China', 'Hong Kong', 'Macau'], logoPath: '/logos/chinaunicom.svg' },
+  { id: 'singtel', name: 'Singtel', regions: ['Asia', 'Oceania'], countries: ['Singapore', 'Australia', 'Thailand'], logoPath: '/logos/singtel.svg' },
+  { id: 'softbank', name: 'SoftBank', regions: ['Asia'], countries: ['Japan'], logoPath: '/logos/softbank.svg' },
+  { id: 'kddi', name: 'KDDI', regions: ['Asia'], countries: ['Japan'], logoPath: '/logos/kddi.svg' },
+  { id: 'sk-telecom', name: 'SK Telecom', regions: ['Asia'], countries: ['South Korea'], logoPath: '/logos/sk-telecom.svg' },
+  { id: 'kt-corp', name: 'KT Corporation', regions: ['Asia'], countries: ['South Korea'], logoPath: '/logos/kt-corp.svg' },
 
   // Oceania
-  { id: 'telstra', name: 'Telstra', regions: ['Oceania'], countries: ['Australia'], logoPath: '/src/components/domain/OperatorCarousel/logos/telstra.svg' },
-  { id: 'optus', name: 'Optus', regions: ['Oceania'], countries: ['Australia'], logoPath: '/src/components/domain/OperatorCarousel/logos/optus.svg' },
+  { id: 'telstra', name: 'Telstra', regions: ['Oceania'], countries: ['Australia'], logoPath: '/logos/telstra.svg' },
+  { id: 'optus', name: 'Optus', regions: ['Oceania'], countries: ['Australia'], logoPath: '/logos/optus.svg' },
 
   // Africa
-  { id: 'mtn', name: 'MTN', regions: ['Africa', 'Middle East'], countries: ['South Africa', 'Nigeria', 'Ghana', 'Uganda'], logoPath: '/src/components/domain/OperatorCarousel/logos/mtn.svg' },
-  { id: 'airtel', name: 'Airtel', regions: ['Africa', 'Asia'], countries: ['India', 'Nigeria', 'Kenya', 'Tanzania'], logoPath: '/src/components/domain/OperatorCarousel/logos/airtel.svg' },
+  { id: 'mtn', name: 'MTN', regions: ['Africa', 'Middle East'], countries: ['South Africa', 'Nigeria', 'Ghana', 'Uganda'], logoPath: '/logos/mtn.svg' },
+  { id: 'airtel', name: 'Airtel', regions: ['Africa', 'Asia'], countries: ['India', 'Nigeria', 'Kenya', 'Tanzania'], logoPath: '/logos/airtel.svg' },
 
   // Latin America
-  { id: 'movistar', name: 'Movistar', regions: ['Latin America', 'Europe'], countries: ['Spain', 'Mexico', 'Argentina', 'Chile', 'Peru'], logoPath: '/src/components/domain/OperatorCarousel/logos/movistar.svg' },
-  { id: 'claro', name: 'Claro', regions: ['Latin America'], countries: ['Brazil', 'Mexico', 'Argentina', 'Chile'], logoPath: '/src/components/domain/OperatorCarousel/logos/claro.svg' },
-  { id: 'tim', name: 'TIM', regions: ['Latin America', 'Europe'], countries: ['Brazil', 'Italy'], logoPath: '/src/components/domain/OperatorCarousel/logos/tim.svg' },
+  { id: 'movistar', name: 'Movistar', regions: ['Latin America', 'Europe'], countries: ['Spain', 'Mexico', 'Argentina', 'Chile', 'Peru'], logoPath: '/logos/movistar.svg' },
+  { id: 'claro', name: 'Claro', regions: ['Latin America'], countries: ['Brazil', 'Mexico', 'Argentina', 'Chile'], logoPath: '/logos/claro.svg' },
+  { id: 'tim', name: 'TIM', regions: ['Latin America', 'Europe'], countries: ['Brazil', 'Italy'], logoPath: '/logos/tim.svg' },
 ];
