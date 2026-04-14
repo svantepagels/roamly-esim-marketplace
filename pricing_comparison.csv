@@ -1,0 +1,47 @@
+Destination,Plan,Current_Price_USD,Current_Price_Per_GB,Market_Low_USD,Market_Avg_USD,Market_High_USD,Market_Avg_Per_GB,Premium_vs_Market,Recommended_USD,Recommended_Per_GB,Change_Percent,Rationale
+USA,1GB/7d,4.50,4.50,0.99,1.99,4.50,1.99,126%,2.99,2.99,-33%,Match mid-tier; 300% markup vs leader too risky
+USA,3GB/15d,11.00,3.67,3.00,5.00,11.00,1.67,120%,6.99,2.33,-36%,Competitive with premium providers
+USA,5GB/30d,16.00,3.20,8.00,12.00,16.00,2.40,33%,11.99,2.40,-25%,Match market average
+USA,10GB/30d,26.00,2.60,12.00,16.00,26.00,1.60,63%,16.99,1.70,-35%,Price at upper-mid tier
+USA,20GB/30d,42.00,2.10,20.00,30.00,42.00,1.50,40%,29.99,1.50,-29%,Match market average
+USA,Unlimited/7d,27.00,N/A,25.00,27.00,50.00,N/A,0%,27.00,N/A,0%,Already competitive
+USA,Unlimited/30d,69.00,N/A,49.00,69.00,99.00,N/A,0%,59.00,N/A,-14%,Slight reduction for competitiveness
+Japan,1GB/7d,3.99,3.99,0.49,0.94,3.99,0.94,324%,2.99,2.99,-25%,Aggressive cut but still premium
+Japan,3GB/15d,9.99,3.33,2.50,4.50,9.99,1.50,122%,6.99,2.33,-30%,Match mid-premium tier
+Japan,5GB/30d,15.00,3.00,6.00,10.00,15.00,2.00,50%,10.99,2.20,-27%,Slightly below market avg
+Japan,10GB/30d,24.00,2.40,12.00,16.00,24.00,1.60,50%,16.99,1.70,-29%,Match upper-mid tier
+Japan,20GB/30d,37.00,1.85,20.00,28.00,37.00,1.40,32%,26.99,1.35,-27%,Competitive positioning
+Thailand,1GB/7d,3.99,3.99,0.49,0.99,3.99,0.99,303%,2.49,2.49,-38%,Still premium but more reasonable
+Thailand,3GB/15d,8.99,3.00,2.00,4.00,8.99,1.33,125%,5.99,2.00,-33%,Match mid-tier
+Thailand,5GB/30d,13.99,2.80,5.00,9.00,13.99,1.80,55%,9.99,2.00,-29%,Match market average
+Thailand,10GB/30d,22.00,2.20,8.00,14.00,22.00,1.40,57%,14.99,1.50,-32%,Competitive with leaders
+Spain,1GB/7d,3.99,3.99,0.49,0.75,3.99,0.75,432%,2.49,2.49,-38%,Large cut needed
+Spain,3GB/15d,8.99,3.00,2.00,4.00,8.99,1.33,125%,5.99,2.00,-33%,Match premium mid-tier
+Spain,5GB/30d,13.99,2.80,5.00,9.00,13.99,1.80,55%,9.99,2.00,-29%,Match market average
+Spain,10GB/30d,22.00,2.20,10.00,14.00,22.00,1.40,57%,14.99,1.50,-32%,Competitive positioning
+Spain,20GB/30d,35.00,1.75,15.00,24.00,35.00,1.20,46%,24.99,1.25,-29%,Match market average
+UK,1GB/7d,3.99,3.99,0.49,0.75,3.99,0.75,432%,2.49,2.49,-38%,Same as Spain (EU market)
+UK,10GB/30d,22.00,2.20,10.00,14.00,22.00,1.40,57%,14.99,1.50,-32%,Match competitors
+UK,20GB/30d,35.00,1.75,15.00,24.00,35.00,1.20,46%,24.99,1.25,-29%,Market alignment
+France,1GB/7d,3.99,3.99,0.49,0.75,3.99,0.75,432%,2.49,2.49,-38%,EU pricing alignment
+France,10GB/30d,22.00,2.20,10.00,14.00,22.00,1.40,57%,14.99,1.50,-32%,Match UK/Spain
+Germany,1GB/7d,3.99,3.99,0.49,0.75,3.99,0.75,432%,2.49,2.49,-38%,EU pricing alignment
+Germany,10GB/30d,22.00,2.20,10.00,14.00,22.00,1.40,57%,14.99,1.50,-32%,Market competitive
+Canada,1GB/7d,5.00,5.00,1.00,2.00,5.00,2.00,150%,2.99,2.99,-40%,Align with USA pricing
+Canada,10GB/30d,29.00,2.90,14.00,20.00,29.00,2.00,45%,19.99,2.00,-31%,Match market average
+Mexico,1GB/7d,4.50,4.50,0.99,1.99,4.50,1.99,126%,2.99,2.99,-33%,Align with USA
+Mexico,10GB/30d,24.00,2.40,12.00,16.00,24.00,1.60,50%,16.99,1.70,-29%,Competitive tier
+Brazil,1GB/7d,4.50,4.50,1.00,2.00,4.50,2.00,125%,2.99,2.99,-33%,LATAM alignment
+Brazil,10GB/30d,26.00,2.60,12.00,18.00,26.00,1.80,44%,17.99,1.80,-31%,Market average
+Turkey,1GB/7d,4.50,4.50,0.75,1.50,4.50,1.50,200%,2.99,2.99,-33%,Large correction needed
+Turkey,10GB/30d,24.00,2.40,12.00,16.00,24.00,1.60,50%,16.99,1.70,-29%,Competitive positioning
+UAE,1GB/7d,5.50,5.50,1.50,3.00,5.50,3.00,83%,3.99,3.99,-27%,Premium market adjustment
+UAE,10GB/30d,29.00,2.90,15.00,22.00,29.00,2.20,32%,22.99,2.30,-21%,Match upper tier
+Australia,1GB/7d,4.99,4.99,1.00,2.50,4.99,2.50,100%,3.49,3.49,-30%,Premium market allows higher
+Australia,10GB/30d,27.00,2.70,14.00,20.00,27.00,2.00,35%,19.99,2.00,-26%,Market alignment
+India,1GB/7d,3.99,3.99,0.49,0.99,3.99,0.99,303%,1.99,1.99,-50%,Price-sensitive market
+India,10GB/30d,20.00,2.00,8.00,12.00,20.00,1.20,67%,12.99,1.30,-35%,Competitive in budget market
+China,1GB/7d,5.00,5.00,1.00,2.50,5.00,2.50,100%,3.99,3.99,-20%,Complexity premium justified
+China,10GB/30d,28.00,2.80,14.00,20.00,28.00,2.00,40%,21.99,2.20,-21%,Moderate adjustment
+Global,1GB/7d,8.99,8.99,2.00,5.00,8.99,5.00,80%,6.99,6.99,-22%,Multi-country premium
+Global,10GB/30d,37.00,3.70,18.00,28.00,37.00,2.80,32%,29.99,3.00,-19%,Competitive for global coverage

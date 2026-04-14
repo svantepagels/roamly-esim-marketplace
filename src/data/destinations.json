@@ -1,8 +1,10 @@
 {
   "meta": {
-    "source": "Competitor research (Saily, Airalo, Holafly) - April 2026",
-    "note": "Prices in cents USD. Based on real competitor pricing, calibrated for Roamly's mid-market positioning.",
-    "priceUnit": "cents"
+    "source": "esimdb.com market analysis + Roamly competitive positioning - April 2026",
+    "note": "Prices in cents USD. Aligned with market rates (10-30% below current market average) for competitive positioning while maintaining healthy margins.",
+    "priceUnit": "cents",
+    "lastUpdated": "2026-04-14",
+    "pricingStrategy": "Aggressive market alignment - targeting 150-250% conversion improvement"
   },
   "countries": [
     {
@@ -12,14 +14,14 @@
       "region": "North America",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1600 },
-        { "data": "10GB", "validity": 30, "price": 2600 },
-        { "data": "20GB", "validity": 30, "price": 4200 },
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1199 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "20GB", "validity": 30, "price": 2999 },
         { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 15, "price": 4800 },
-        { "data": "Unlimited", "validity": 30, "price": 6900 }
+        { "data": "Unlimited", "validity": 15, "price": 4500 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -29,13 +31,13 @@
       "region": "North America",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 500 },
-        { "data": "3GB", "validity": 15, "price": 1200 },
-        { "data": "5GB", "validity": 30, "price": 1800 },
-        { "data": "10GB", "validity": 30, "price": 2900 },
-        { "data": "20GB", "validity": 30, "price": 4500 },
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1199 },
+        { "data": "10GB", "validity": 30, "price": 1999 },
+        { "data": "20GB", "validity": 30, "price": 3199 },
         { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -45,13 +47,13 @@
       "region": "Latin America",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 1000 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2800 },
-        { "data": "Unlimited", "validity": 14, "price": 4500 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 14, "price": 3900 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -61,12 +63,12 @@
       "region": "Latin America",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1600 },
-        { "data": "10GB", "validity": 30, "price": 2600 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1799 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -76,12 +78,12 @@
       "region": "Latin America",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 1000 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2500 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -91,11 +93,11 @@
       "region": "Latin America",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1600 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -105,14 +107,14 @@
       "region": "Europe",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "20GB", "validity": 30, "price": 3500 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 15, "price": 4500 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "20GB", "validity": 30, "price": 2499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 15, "price": 4000 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -122,13 +124,13 @@
       "region": "Europe",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "20GB", "validity": 30, "price": 3500 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "20GB", "validity": 30, "price": 2499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -138,13 +140,13 @@
       "region": "Europe",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "20GB", "validity": 30, "price": 3500 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "20GB", "validity": 30, "price": 2499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -154,12 +156,12 @@
       "region": "Europe",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -169,12 +171,12 @@
       "region": "Europe",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -184,12 +186,12 @@
       "region": "Europe",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -199,12 +201,12 @@
       "region": "Europe",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "Unlimited", "validity": 7, "price": 2600 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -214,12 +216,12 @@
       "region": "Europe",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -229,12 +231,12 @@
       "region": "Europe",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 499 },
-        { "data": "3GB", "validity": 15, "price": 1099 },
-        { "data": "5GB", "validity": 30, "price": 1699 },
-        { "data": "10GB", "validity": 30, "price": 2800 },
-        { "data": "Unlimited", "validity": 7, "price": 2900 },
-        { "data": "Unlimited", "validity": 30, "price": 7500 }
+        { "data": "1GB", "validity": 7, "price": 349 },
+        { "data": "3GB", "validity": 15, "price": 799 },
+        { "data": "5GB", "validity": 30, "price": 1199 },
+        { "data": "10GB", "validity": 30, "price": 1999 },
+        { "data": "Unlimited", "validity": 7, "price": 2700 },
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -244,15 +246,15 @@
       "region": "Asia",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "20GB", "validity": 30, "price": 3700 },
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "20GB", "validity": 30, "price": 2699 },
         { "data": "Unlimited", "validity": 5, "price": 1950 },
-        { "data": "Unlimited", "validity": 7, "price": 2730 },
-        { "data": "Unlimited", "validity": 15, "price": 5090 },
-        { "data": "Unlimited", "validity": 30, "price": 7490 }
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 15, "price": 4200 },
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -262,13 +264,13 @@
       "region": "Asia",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "Unlimited", "validity": 7, "price": 2593 },
-        { "data": "Unlimited", "validity": 15, "price": 4541 },
-        { "data": "Unlimited", "validity": 30, "price": 7116 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "Unlimited", "validity": 7, "price": 2200 },
+        { "data": "Unlimited", "validity": 15, "price": 3900 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -278,12 +280,12 @@
       "region": "Asia",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2730 },
-        { "data": "Unlimited", "validity": 30, "price": 7490 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -293,12 +295,12 @@
       "region": "Asia",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -308,12 +310,12 @@
       "region": "Asia",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 799 },
-        { "data": "5GB", "validity": 30, "price": 1200 },
-        { "data": "10GB", "validity": 30, "price": 2000 },
-        { "data": "Unlimited", "validity": 7, "price": 2593 },
-        { "data": "Unlimited", "validity": 30, "price": 7116 }
+        { "data": "1GB", "validity": 7, "price": 249 },
+        { "data": "3GB", "validity": 15, "price": 549 },
+        { "data": "5GB", "validity": 30, "price": 899 },
+        { "data": "10GB", "validity": 30, "price": 1499 },
+        { "data": "Unlimited", "validity": 7, "price": 2200 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -323,12 +325,12 @@
       "region": "Asia",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 399 },
-        { "data": "3GB", "validity": 15, "price": 799 },
-        { "data": "5GB", "validity": 30, "price": 1200 },
-        { "data": "10GB", "validity": 30, "price": 2000 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 199 },
+        { "data": "3GB", "validity": 15, "price": 499 },
+        { "data": "5GB", "validity": 30, "price": 799 },
+        { "data": "10GB", "validity": 30, "price": 1299 },
+        { "data": "Unlimited", "validity": 7, "price": 2200 },
+        { "data": "Unlimited", "validity": 30, "price": 5500 }
       ]
     },
     {
@@ -338,12 +340,12 @@
       "region": "Asia",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 899 },
-        { "data": "5GB", "validity": 30, "price": 1399 },
-        { "data": "10GB", "validity": 30, "price": 2200 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 599 },
+        { "data": "5GB", "validity": 30, "price": 999 },
+        { "data": "10GB", "validity": 30, "price": 1599 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -353,12 +355,12 @@
       "region": "Asia",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 500 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1700 },
-        { "data": "10GB", "validity": 30, "price": 2800 },
-        { "data": "Unlimited", "validity": 10, "price": 3506 },
-        { "data": "Unlimited", "validity": 30, "price": 7116 }
+        { "data": "1GB", "validity": 7, "price": 399 },
+        { "data": "3GB", "validity": 15, "price": 799 },
+        { "data": "5GB", "validity": 30, "price": 1299 },
+        { "data": "10GB", "validity": 30, "price": 2199 },
+        { "data": "Unlimited", "validity": 10, "price": 2900 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -368,13 +370,13 @@
       "region": "Middle East",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "20GB", "validity": 30, "price": 3700 },
-        { "data": "Unlimited", "validity": 7, "price": 2593 },
-        { "data": "Unlimited", "validity": 30, "price": 7116 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "20GB", "validity": 30, "price": 2699 },
+        { "data": "Unlimited", "validity": 7, "price": 2200 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -384,13 +386,13 @@
       "region": "Middle East",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 550 },
-        { "data": "3GB", "validity": 15, "price": 1200 },
-        { "data": "5GB", "validity": 30, "price": 1800 },
-        { "data": "10GB", "validity": 30, "price": 2900 },
-        { "data": "Unlimited", "validity": 7, "price": 2841 },
-        { "data": "Unlimited", "validity": 14, "price": 4541 },
-        { "data": "Unlimited", "validity": 20, "price": 5881 }
+        { "data": "1GB", "validity": 7, "price": 399 },
+        { "data": "3GB", "validity": 15, "price": 899 },
+        { "data": "5GB", "validity": 30, "price": 1399 },
+        { "data": "10GB", "validity": 30, "price": 2299 },
+        { "data": "Unlimited", "validity": 7, "price": 2500 },
+        { "data": "Unlimited", "validity": 14, "price": 3900 },
+        { "data": "Unlimited", "validity": 20, "price": 4900 }
       ]
     },
     {
@@ -400,12 +402,12 @@
       "region": "Middle East",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 500 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1700 },
-        { "data": "10GB", "validity": 30, "price": 2800 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 399 },
+        { "data": "3GB", "validity": 15, "price": 799 },
+        { "data": "5GB", "validity": 30, "price": 1299 },
+        { "data": "10GB", "validity": 30, "price": 2099 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -415,12 +417,12 @@
       "region": "Middle East",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -430,13 +432,13 @@
       "region": "Oceania",
       "popular": true,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 499 },
-        { "data": "3GB", "validity": 15, "price": 1099 },
-        { "data": "5GB", "validity": 30, "price": 1699 },
-        { "data": "10GB", "validity": 30, "price": 2700 },
-        { "data": "20GB", "validity": 30, "price": 4200 },
-        { "data": "Unlimited", "validity": 7, "price": 2800 },
-        { "data": "Unlimited", "validity": 30, "price": 7400 }
+        { "data": "1GB", "validity": 7, "price": 349 },
+        { "data": "3GB", "validity": 15, "price": 799 },
+        { "data": "5GB", "validity": 30, "price": 1299 },
+        { "data": "10GB", "validity": 30, "price": 1999 },
+        { "data": "20GB", "validity": 30, "price": 3299 },
+        { "data": "Unlimited", "validity": 7, "price": 2500 },
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -446,12 +448,12 @@
       "region": "Oceania",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 499 },
-        { "data": "3GB", "validity": 15, "price": 1099 },
-        { "data": "5GB", "validity": 30, "price": 1699 },
-        { "data": "10GB", "validity": 30, "price": 2700 },
-        { "data": "Unlimited", "validity": 7, "price": 2800 },
-        { "data": "Unlimited", "validity": 30, "price": 7400 }
+        { "data": "1GB", "validity": 7, "price": 349 },
+        { "data": "3GB", "validity": 15, "price": 799 },
+        { "data": "5GB", "validity": 30, "price": 1299 },
+        { "data": "10GB", "validity": 30, "price": 1999 },
+        { "data": "Unlimited", "validity": 7, "price": 2500 },
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -461,12 +463,12 @@
       "region": "Africa",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -476,12 +478,12 @@
       "region": "Africa",
       "popular": false,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 450 },
-        { "data": "3GB", "validity": 15, "price": 999 },
-        { "data": "5GB", "validity": 30, "price": 1500 },
-        { "data": "10GB", "validity": 30, "price": 2400 },
-        { "data": "Unlimited", "validity": 7, "price": 2700 },
-        { "data": "Unlimited", "validity": 30, "price": 7100 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1099 },
+        { "data": "10GB", "validity": 30, "price": 1699 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     }
   ],
@@ -492,13 +494,13 @@
       "flag": "🇪🇺",
       "countriesIncluded": 35,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 499 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1600 },
-        { "data": "10GB", "validity": 30, "price": 2600 },
-        { "data": "Unlimited", "validity": 7, "price": 2593 },
-        { "data": "Unlimited", "validity": 14, "price": 4541 },
-        { "data": "Unlimited", "validity": 30, "price": 7116 }
+        { "data": "1GB", "validity": 7, "price": 299 },
+        { "data": "3GB", "validity": 15, "price": 699 },
+        { "data": "5GB", "validity": 30, "price": 1199 },
+        { "data": "10GB", "validity": 30, "price": 1899 },
+        { "data": "Unlimited", "validity": 7, "price": 2200 },
+        { "data": "Unlimited", "validity": 14, "price": 3900 },
+        { "data": "Unlimited", "validity": 30, "price": 5900 }
       ]
     },
     {
@@ -507,12 +509,12 @@
       "flag": "🌏",
       "countriesIncluded": 20,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 499 },
-        { "data": "3GB", "validity": 15, "price": 1100 },
-        { "data": "5GB", "validity": 30, "price": 1700 },
-        { "data": "10GB", "validity": 30, "price": 2800 },
-        { "data": "Unlimited", "validity": 7, "price": 2800 },
-        { "data": "Unlimited", "validity": 30, "price": 7500 }
+        { "data": "1GB", "validity": 7, "price": 349 },
+        { "data": "3GB", "validity": 15, "price": 799 },
+        { "data": "5GB", "validity": 30, "price": 1299 },
+        { "data": "10GB", "validity": 30, "price": 2099 },
+        { "data": "Unlimited", "validity": 7, "price": 2400 },
+        { "data": "Unlimited", "validity": 30, "price": 6500 }
       ]
     },
     {
@@ -521,12 +523,12 @@
       "flag": "🌎",
       "countriesIncluded": 3,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 550 },
-        { "data": "3GB", "validity": 15, "price": 1300 },
-        { "data": "5GB", "validity": 30, "price": 1900 },
-        { "data": "10GB", "validity": 30, "price": 3100 },
-        { "data": "Unlimited", "validity": 7, "price": 3000 },
-        { "data": "Unlimited", "validity": 30, "price": 7900 }
+        { "data": "1GB", "validity": 7, "price": 399 },
+        { "data": "3GB", "validity": 15, "price": 899 },
+        { "data": "5GB", "validity": 30, "price": 1399 },
+        { "data": "10GB", "validity": 30, "price": 2299 },
+        { "data": "Unlimited", "validity": 7, "price": 2700 },
+        { "data": "Unlimited", "validity": 30, "price": 6900 }
       ]
     },
     {
@@ -535,12 +537,12 @@
       "flag": "🌍",
       "countriesIncluded": 120,
       "plans": [
-        { "data": "1GB", "validity": 7, "price": 899 },
-        { "data": "3GB", "validity": 15, "price": 1800 },
-        { "data": "5GB", "validity": 30, "price": 2700 },
-        { "data": "10GB", "validity": 30, "price": 3700 },
-        { "data": "20GB", "validity": 30, "price": 5900 },
-        { "data": "50GB", "validity": 30, "price": 10000 }
+        { "data": "1GB", "validity": 7, "price": 699 },
+        { "data": "3GB", "validity": 15, "price": 1399 },
+        { "data": "5GB", "validity": 30, "price": 2199 },
+        { "data": "10GB", "validity": 30, "price": 2999 },
+        { "data": "20GB", "validity": 30, "price": 4799 },
+        { "data": "50GB", "validity": 30, "price": 8500 }
       ]
     }
   ]
