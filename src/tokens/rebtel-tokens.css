@@ -1,39 +1,50 @@
 /* ========================================
    REBTEL DESIGN SYSTEM TOKENS
    Base: 4px grid system
+   
+   CORRECTED: Red (#E31B3B) primary + greyscale palette
+   Source: Rebtel brand guidelines (2026-04-14)
    ======================================== */
 
-/* Import Google Fonts */
+/* Import Google Fonts - Using Rebtel's display fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
 
 :root {
   /* ================== COLORS ================== */
   
-  /* Primary Palette (Rebtel Brand) */
-  --color-primary: #FF6B35;           /* Rebtel Orange - main brand color */
-  --color-primary-dark: #E85A28;      /* Hover/active states */
-  --color-primary-light: #FFF3EF;     /* Backgrounds, subtle accents */
+  /* Primary Palette (Rebtel Brand - CORRECTED) */
+  --color-primary: #E31B3B;           /* Rebtel Red - main brand color */
+  --color-primary-dark: #C01731;      /* Hover/active states (darker red) */
+  --color-primary-light: #FFEEF1;     /* Backgrounds, subtle accents */
   
-  /* Neutrals */
-  --color-ink: #1A1A1A;               /* Primary text, headings */
-  --color-stone: #6B6B6B;             /* Secondary text */
-  --color-fog: #F5F5F3;               /* Page background */
-  --color-white: #FFFFFF;             /* Cards, inputs */
-  --color-border: #E5E5E3;            /* Dividers, borders */
-  --color-border-strong: #C4C4C2;     /* Emphasized borders */
+  /* Greyscale Palette (Rebtel Design System) */
+  --color-grey-900: #1A1A1A;          /* Darkest - headings, primary text */
+  --color-grey-700: #4A4A4A;          /* Dark - secondary text */
+  --color-grey-500: #9E9E9E;          /* Mid - disabled states, placeholders */
+  --color-grey-300: #E0E0E0;          /* Light - borders, dividers */
+  --color-grey-100: #F5F5F5;          /* Lightest - backgrounds */
+  --color-white: #FFFFFF;             /* Pure white - cards, inputs */
+  --color-black: #000000;             /* Pure black - secondary buttons */
+  
+  /* Legacy neutral mappings (backward compatibility) */
+  --color-ink: var(--color-grey-900);         /* Primary text, headings */
+  --color-stone: var(--color-grey-700);       /* Secondary text */
+  --color-fog: var(--color-grey-100);         /* Page background */
+  --color-border: var(--color-grey-300);      /* Dividers, borders */
+  --color-border-strong: var(--color-grey-500); /* Emphasized borders */
   
   /* Semantic Colors */
-  --color-success: #2D8B57;           /* Green - success states */
+  --color-success: #00C853;           /* Green - success states (Material Green 600) */
   --color-success-light: #E8F5EE;     /* Success backgrounds */
   --color-warning: #F59E0B;           /* Amber - warnings */
   --color-warning-light: #FEF3C7;     /* Warning backgrounds */
-  --color-error: #DC2626;             /* Red - errors */
+  --color-error: #DC2626;             /* Red - errors (distinct from brand red) */
   --color-error-light: #FEE2E2;       /* Error backgrounds */
   --color-info: #3B82F6;              /* Blue - informational */
   --color-info-light: #DBEAFE;        /* Info backgrounds */
 
   /* Legacy color mappings for backward compatibility */
-  --color-teal: var(--color-primary);
+  --color-teal: var(--color-primary); /* Old teal -> new red */
   --color-teal-dark: var(--color-primary-dark);
   --color-teal-light: var(--color-primary-light);
   --color-red: var(--color-error);
@@ -59,7 +70,12 @@
 
   /* ================== TYPOGRAPHY ================== */
   
-  /* Font Families */
+  /* Font Families (Rebtel Design System)
+     Note: Using web-safe fallbacks since Pano/KH Teka require custom font files
+     If custom fonts are available, replace with:
+     --font-display: 'Pano', sans-serif;
+     --font-body: 'KH Teka', -apple-system, BlinkMacSystemFont, sans-serif;
+  */
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-display: 'Poppins', 'Inter', sans-serif; /* Display/headings */
   --font-sans: var(--font-body); /* Alias for backward compatibility */
@@ -144,3 +160,27 @@
   --frame-border-radius: 36px;
   --frame-notch-height: 24px;
 }
+
+/* ========================================
+   DESIGN SYSTEM CHANGE LOG
+   ======================================== */
+
+/*
+  2026-04-14: CRITICAL COLOR CORRECTION
+  ─────────────────────────────────────
+  Changed primary color from Orange (#FF6B35) to Rebtel Red (#E31B3B)
+  Added proper greyscale palette (#1A1A1A → #F5F5F5)
+  Updated semantic success color to #00C853 (Material Green)
+  
+  BEFORE (INCORRECT):
+  --color-primary: #FF6B35 (Orange)
+  
+  AFTER (CORRECT):
+  --color-primary: #E31B3B (Rebtel Red)
+  
+  This change affects:
+  - All primary buttons and CTAs
+  - Link colors and active states
+  - Focus rings and interactive elements
+  - Brand accent colors throughout the app
+*/
