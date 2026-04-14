@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Container } from '../../components/layout/Container/Container';
-import { PlanCard } from '../../components/domain/PlanCard/PlanCard';
+import { PlanCard } from '../../components/molecules/PlanCard';
 import { CartSummary } from '../../components/domain/CartSummary/CartSummary';
 import { Skeleton } from '../../components/atoms/Skeleton';
 import { Card } from '../../components/atoms/Card';

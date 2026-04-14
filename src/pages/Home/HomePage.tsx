@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
 import { Container } from '../../components/layout/Container/Container';
-import { SearchBar } from '../../components/domain/SearchBar/SearchBar';
-import { CountryCard } from '../../components/domain/CountryCard/CountryCard';
-import { TrustBadges } from '../../components/domain/TrustBadges/TrustBadges';
+import { SearchBar } from '../../components/molecules/SearchBar';
+import { CountryCard } from '../../components/molecules/CountryCard';
+import { TrustBadge } from '../../components/molecules/TrustBadge';
 import { OperatorCarousel } from '../../components/domain/OperatorCarousel/OperatorCarousel';
 import { Skeleton } from '../../components/atoms/Skeleton';
 import { Button } from '../../components/atoms/Button';
@@ -80,7 +80,7 @@ export function HomePage() {
           <p className={styles.tagline}>
             Pick a country, pick a plan, go.
           </p>
-          <TrustBadges />
+          <TrustBadge />
           <SearchBar />
         </div>
 
