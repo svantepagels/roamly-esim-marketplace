@@ -1,0 +1,1 @@
+import{a as e}from"./Button-XdfGKaoB.js";var t={skeleton:`_skeleton_ph0zc_1`,pulse:`_pulse_ph0zc_1`},n=e();function r({width:e=`100%`,height:r=20,borderRadius:i}){return(0,n.jsx)(`div`,{className:t.skeleton,style:{width:e,height:r,borderRadius:i},"aria-hidden":`true`})}export{r as t};
