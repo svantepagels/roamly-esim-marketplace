@@ -1,1 +1,0 @@
-import{_ as e,h as t}from"./Button-XdfGKaoB.js";var n=e(t(),1);function r(e,t){(0,n.useEffect)(()=>{if(document.title=e,t){let e=document.querySelector(`meta[name="description"]`);e||(e=document.createElement(`meta`),e.setAttribute(`name`,`description`),document.head.appendChild(e)),e.setAttribute(`content`,t)}},[e,t])}export{r as t};

@@ -1,0 +1,1 @@
+import{n as e}from"./Button-DM6FwW19.js";var t=e(e=>({selectedPlan:null,destination:null,order:null,selectPlan:(t,n)=>e({selectedPlan:t,destination:n}),clearCart:()=>e({selectedPlan:null,destination:null}),setOrder:t=>e({order:t}),clearOrder:()=>e({order:null})}));export{t};

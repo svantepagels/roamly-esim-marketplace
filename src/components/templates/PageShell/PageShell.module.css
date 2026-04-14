@@ -1,0 +1,59 @@
+/**
+ * PageShell - Clean Responsive Layout
+ * Replaces IPhoneFrame device wrapper with modern flexbox pattern
+ * 
+ * Research-backed improvements:
+ * - 100dvh (dynamic viewport) instead of 100vh (fixes mobile browser chrome issues)
+ * - safe-area insets (handles iPhone notch/home indicator)
+ * - min-height: 0 on flex child (prevents flexbox overflow bugs)
+ */
+
+.shell {
+  /* Flexbox vertical stack: header -> main (flex) -> footer */
+  display: flex;
+  flex-direction: column;
+  
+  /* Modern viewport units: dvh adjusts to mobile browser chrome */
+  min-height: 100dvh; /* Dynamic Viewport Height (2024+) */
+  min-height: 100vh;  /* Fallback for older browsers */
+  
+  /* iPhone safe-area handling (notch + home indicator) */
+  padding-top: env(safe-area-inset-top, 0);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+  
+  /* Background from design system */
+  background: var(--color-fog);
+  
+  /* Position context */
+  position: relative;
+}
+
+.main {
+  /* Take all available space between header and footer */
+  flex: 1;
+  
+  /* Critical: Prevents flexbox overflow bugs */
+  min-height: 0;
+  
+  /* Full width, no horizontal scroll */
+  width: 100%;
+  
+  /* Enable vertical scrolling, prevent horizontal scroll */
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+  /* Smooth scrolling on iOS */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Optional: Desktop max-width constraint */
+/* Uncomment if you want centered layout on large screens (1200px+) */
+/*
+@media (min-width: 1200px) {
+  .shell {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    box-shadow: var(--shadow-sm);
+  }
+}
+*/
