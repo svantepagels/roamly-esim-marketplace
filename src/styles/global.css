@@ -1,4 +1,4 @@
-@import '../tokens/tokens.css';
+@import '../tokens/rebtel-tokens.css';
 
 *,
 *::before,
@@ -16,17 +16,18 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   font-size: var(--text-body);
   font-weight: var(--weight-regular);
   color: var(--color-ink);
   background-color: var(--color-fog);
-  line-height: 1.5;
+  line-height: var(--leading-normal);
   min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
+  font-family: var(--font-display);
+  line-height: var(--leading-tight);
 }
 
 h1 {
@@ -47,12 +48,12 @@ h3 {
 }
 
 a {
-  color: var(--color-teal);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-teal-dark);
+  color: var(--color-primary-dark);
 }
 
 img {
@@ -71,7 +72,7 @@ input {
 
 /* Focus visible for keyboard nav */
 :focus-visible {
-  outline: 2px solid var(--color-teal);
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
