@@ -74,7 +74,7 @@
 .track {
   display: flex;
   gap: var(--space-12);
-  animation: scroll 60s linear infinite;
+  animation: scroll 18s linear infinite;
   will-change: transform;
 }
 
@@ -135,7 +135,7 @@
 
   .track {
     gap: var(--space-16);
-    animation-duration: 45s;
+    animation-duration: 14s;
   }
 }
 
@@ -159,6 +159,6 @@
 
   .track {
     gap: var(--space-20);
-    animation-duration: 60s;
+    animation-duration: 18s;
   }
 }
