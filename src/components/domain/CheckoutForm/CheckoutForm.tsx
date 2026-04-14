@@ -1,8 +1,8 @@
 import { useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Shield, Zap, Headphones } from 'lucide-react';
-import { Input } from '../../ui/Input/Input';
-import { Button } from '../../ui/Button/Button';
+import { Input } from '../../atoms/Input';
+import { Button } from '../../atoms/Button';
 import { useCheckout } from '../../../hooks/useCheckout';
 import { isValidEmail } from '../../../utils/format';
 import styles from './CheckoutForm.module.css';

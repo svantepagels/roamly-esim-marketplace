@@ -3,9 +3,10 @@ import { Container } from '../../components/layout/Container/Container';
 import { SearchBar } from '../../components/domain/SearchBar/SearchBar';
 import { CountryCard } from '../../components/domain/CountryCard/CountryCard';
 import { TrustBadges } from '../../components/domain/TrustBadges/TrustBadges';
-import { Skeleton } from '../../components/ui/Skeleton/Skeleton';
-import { Button } from '../../components/ui/Button/Button';
-import { Card } from '../../components/ui/Card/Card';
+import { OperatorCarousel } from '../../components/domain/OperatorCarousel/OperatorCarousel';
+import { Skeleton } from '../../components/atoms/Skeleton';
+import { Button } from '../../components/atoms/Button';
+import { Card } from '../../components/atoms/Card';
 import { useDestinations } from '../../hooks/useDestinations';
 import { useDestinationStore } from '../../store/useDestinationStore';
 import { usePageTitle } from '../../hooks/usePageTitle';
@@ -82,6 +83,8 @@ export function HomePage() {
           <TrustBadges />
           <SearchBar />
         </div>
+
+        <OperatorCarousel />
 
         {loading ? (
           <div className={styles.skeletonGrid}>

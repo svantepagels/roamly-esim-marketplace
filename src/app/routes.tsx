@@ -1,8 +1,8 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Container } from '../components/layout/Container/Container';
-import { Skeleton } from '../components/ui/Skeleton/Skeleton';
-import { Button } from '../components/ui/Button/Button';
+import { Skeleton } from '../components/atoms/Skeleton';
+import { Button } from '../components/atoms/Button';
 
 const HomePage = lazy(() => import('../pages/Home/HomePage').then((m) => ({ default: m.HomePage })));
 const DestinationPage = lazy(() => import('../pages/Destination/DestinationPage').then((m) => ({ default: m.DestinationPage })));

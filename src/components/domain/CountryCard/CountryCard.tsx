@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Card } from '../../ui/Card/Card';
-import { Badge } from '../../ui/Badge/Badge';
+import { Card } from '../../atoms/Card';
+import { Badge } from '../../atoms/Badge';
 import { formatPrice } from '../../../utils/format';
 import type { Destination } from '../../../types';
 import styles from './CountryCard.module.css';

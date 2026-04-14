@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import { Card } from '../../ui/Card/Card';
-import { Button } from '../../ui/Button/Button';
+import { Card } from '../../atoms/Card';
+import { Button } from '../../atoms/Button';
 import { useCartStore } from '../../../store/useCartStore';
 import { formatPrice, formatValidity } from '../../../utils/format';
 import styles from './CartSummary.module.css';

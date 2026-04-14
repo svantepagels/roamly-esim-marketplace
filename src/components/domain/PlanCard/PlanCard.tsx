@@ -1,6 +1,6 @@
-import { Card } from '../../ui/Card/Card';
-import { Badge } from '../../ui/Badge/Badge';
-import { Button } from '../../ui/Button/Button';
+import { Card } from '../../atoms/Card';
+import { Badge } from '../../atoms/Badge';
+import { Button } from '../../atoms/Button';
 import { formatPrice, formatValidity, pricePerGB } from '../../../utils/format';
 import type { Plan } from '../../../types';
 import styles from './PlanCard.module.css';

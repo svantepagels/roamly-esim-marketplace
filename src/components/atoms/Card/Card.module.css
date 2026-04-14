@@ -1,0 +1,83 @@
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+/* ========== VARIANTS ========== */
+
+.default {
+  border: 1px solid var(--color-border);
+}
+
+.outlined {
+  border: 2px solid var(--color-border-strong);
+  background: transparent;
+}
+
+.elevated {
+  border: none;
+  box-shadow: var(--shadow-md);
+}
+
+/* ========== PADDING ========== */
+
+.padding-none {
+  padding: 0;
+}
+
+.padding-sm {
+  padding: var(--space-3);
+}
+
+.padding-md {
+  padding: var(--space-4);
+}
+
+.padding-lg {
+  padding: var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .padding-md {
+    padding: var(--space-6);
+  }
+
+  .padding-lg {
+    padding: var(--space-8);
+  }
+}
+
+/* ========== STATES ========== */
+
+.interactive {
+  cursor: pointer;
+}
+
+.interactive:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.interactive.elevated:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.interactive:active {
+  transform: translateY(0);
+}
+
+.selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+.selected.outlined {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.selected.elevated {
+  box-shadow: 0 0 0 2px var(--color-primary), var(--shadow-lg);
+}

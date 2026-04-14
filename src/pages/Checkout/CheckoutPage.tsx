@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Container } from '../../components/layout/Container/Container';
-import { Card } from '../../components/ui/Card/Card';
-import { Button } from '../../components/ui/Button/Button';
+import { Card } from '../../components/atoms/Card';
+import { Button } from '../../components/atoms/Button';
 import { CheckoutForm } from '../../components/domain/CheckoutForm/CheckoutForm';
 import { useCartStore } from '../../store/useCartStore';
 import { usePageTitle } from '../../hooks/usePageTitle';

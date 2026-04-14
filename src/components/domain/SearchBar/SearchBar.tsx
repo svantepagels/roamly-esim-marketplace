@@ -1,5 +1,5 @@
 import { Search } from 'lucide-react';
-import { Input } from '../../ui/Input/Input';
+import { Input } from '../../atoms/Input';
 import { useDestinationStore } from '../../../store/useDestinationStore';
 import styles from './SearchBar.module.css';
 

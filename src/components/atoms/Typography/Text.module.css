@@ -1,0 +1,67 @@
+.text {
+  font-family: var(--font-body);
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+/* ========== VARIANTS ========== */
+
+.body {
+  font-size: var(--text-base);
+}
+
+.lead {
+  font-size: var(--text-lg);
+}
+
+.small {
+  font-size: var(--text-sm);
+}
+
+.caption {
+  font-size: var(--text-xs);
+}
+
+/* ========== WEIGHTS ========== */
+
+.weight-regular {
+  font-weight: var(--weight-regular);
+}
+
+.weight-medium {
+  font-weight: var(--weight-medium);
+}
+
+.weight-semibold {
+  font-weight: var(--weight-semibold);
+}
+
+.weight-bold {
+  font-weight: var(--weight-bold);
+}
+
+/* ========== COLORS ========== */
+
+.color-ink {
+  color: var(--color-ink);
+}
+
+.color-stone {
+  color: var(--color-stone);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-success {
+  color: var(--color-success);
+}
+
+.color-error {
+  color: var(--color-error);
+}
+
+.color-warning {
+  color: var(--color-warning);
+}
